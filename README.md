@@ -1,1 +1,1 @@
-# E-commerceProj
+# MERN E-commerceProject
