@@ -116,5 +116,4 @@ const Shipping = () => {
     </div>
   );
 };
-
 export default Shipping;
