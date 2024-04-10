@@ -23,7 +23,7 @@ const PlaceOrder = () => {
 
   const dispatch = useDispatch();
 
-  const placeOrderHandler = async () => {
+ const placeOrderHandler = async () => {
     try {
       const res = await createOrder({
         orderItems: cart.cartItems,
