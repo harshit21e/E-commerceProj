@@ -46,7 +46,6 @@ const loginUser = asyncHandler(async (req, res) => {
       password,
       existingUser.password
     );
-
     if (isPasswordValid) {
       createToken(res, existingUser._id);
 
