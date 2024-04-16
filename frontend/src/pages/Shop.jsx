@@ -57,6 +57,7 @@ const Shop = () => {
     dispatch(setProducts(productsByBrand));
   };
 
+
   const handleCheck = (value, id) => {
     const updatedChecked = value
       ? [...checked, id]
